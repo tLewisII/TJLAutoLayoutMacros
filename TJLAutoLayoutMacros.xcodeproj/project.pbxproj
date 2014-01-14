@@ -53,6 +53,7 @@
 		DB002F071884E9AD001DFA3A /* TJLAutoLayoutMacrosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJLAutoLayoutMacrosTests-Info.plist"; sourceTree = "<group>"; };
 		DB002F091884E9AD001DFA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB002F0B1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJLAutoLayoutMacrosTests.m; sourceTree = "<group>"; };
+		DB002F151884E9D0001DFA3A /* TJLAutoLayoutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TJLAutoLayoutMacros.h; path = Source/TJLAutoLayoutMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				DB002EF21884E9AD001DFA3A /* Main.storyboard */,
 				DB002EF51884E9AD001DFA3A /* TJLViewController.h */,
 				DB002EF61884E9AD001DFA3A /* TJLViewController.m */,
+				DB002F181884E9DC001DFA3A /* Source */,
 				DB002EF81884E9AD001DFA3A /* Images.xcassets */,
 				DB002EE71884E9AD001DFA3A /* Supporting Files */,
 			);
@@ -150,6 +152,14 @@
 				DB002F081884E9AD001DFA3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB002F181884E9DC001DFA3A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DB002F151884E9D0001DFA3A /* TJLAutoLayoutMacros.h */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

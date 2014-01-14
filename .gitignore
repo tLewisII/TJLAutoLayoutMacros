@@ -1,0 +1,10 @@
+
+*.pbxproj
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcscheme
+
+*.idea
