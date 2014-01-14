@@ -22,10 +22,8 @@
     [self.view addSubview:redView];
     
     [self.view addConstraints:@[
-                                NSConstraintMakeEqualTo(redView, kCenterX, self.view),
-                                NSConstraintMakeEqualTo(redView, kCenterY, self.view),
-                                NSConstraintMakeWidth(redView, kEqual, 300),
-                                NSConstraintMakeHeight(redView, kEqual, 300)
+                                NSConstraintMakeCenter(redView, self.view),
+                                NSConstraintMakeWidthAndHeightEqual(redView, 300)
                                 ]];
     
     UIView *greenView = [[UIView alloc]init];
@@ -34,8 +32,7 @@
     [self.view addSubview:greenView];
     
     [self.view addConstraints:@[
-                                NSConstraintMakeEqualTo(greenView, kCenterX, redView),
-                                NSConstraintMakeEqualTo(greenView, kCenterY, redView),
+                                NSConstraintMakeCenter(greenView, redView),
                                 NSConstraintMakeEqualToWithOffset(greenView, kWidth, redView, -10),
                                 NSConstraintMakeEqualToWithOffset(greenView, kHeight, redView, -10)
                                 ]];

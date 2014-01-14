@@ -27,9 +27,30 @@ NSConstraintMakeWithConstant(item, attribute, kEqual, otherItem, attribute, 1.0,
 #define NSConstraintMakeWidth(item, related, width) \
 NSConstraintMakeWithConstant(item, kWidth, related, nil, kNot, 1.0, width)
 
+/// Make the width and height of the item equal.
+/// Only use this when adding constraints to an array, as
+/// this generates two constraints, it is not assignable to a single variable.
+#define NSConstraintMakeWidthAndHeightEqual(item, size) \
+NSConstraintMakeWithConstant(item, kWidth, kEqual, nil, kNot, 1.0, size), \
+NSConstraintMakeWithConstant(item, kHeight, kEqual, item, kWidth, 1.0, 0)
+
 /// Add a height constraint with a constant to the item.
 #define NSConstraintMakeHeight(item, related, height) \
 NSConstraintMakeWithConstant(item, kHeight, related, nil, kNot, 1.0, height)
+
+/// Center the item within otherItem.
+/// Only use this when adding constraints to an array, as
+/// this generates two constraints, it is not assignable to a single variable.
+#define NSConstraintMakeCenter(item, otherItem) \
+NSConstraintMakeWithConstant(item, kCenterX, kEqual, otherItem, kCenterX, 1.0, 0), \
+NSConstraintMakeWithConstant(item, kCenterY, kEqual, otherItem, kCenterY, 1.0, 0)
+
+/// Center the item within otherItem, with the given offset.
+/// Only use this when adding constraints to an array, as
+/// this generates two constraints, it is not assignable to a single variable.
+#define NSConstraintMakeCenterWithOffset(item, otherItem, offset) \
+NSConstraintMakeWithConstant(item, kCenterX, kEqual, otherItem, kCenterX, 1.0, offset), \
+NSConstraintMakeWithConstant(item, kCenterY, kEqual, otherItem, kCenterY, 1.0, offset)
 
 #define kLeading NSLayoutAttributeLeading
 #define kTrailing NSLayoutAttributeTrailing
