@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB002EE11884E9AD001DFA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EE01884E9AD001DFA3A /* Foundation.framework */; };
+		DB002EE31884E9AD001DFA3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EE21884E9AD001DFA3A /* CoreGraphics.framework */; };
+		DB002EE51884E9AD001DFA3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EE41884E9AD001DFA3A /* UIKit.framework */; };
+		DB002EEB1884E9AD001DFA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB002EE91884E9AD001DFA3A /* InfoPlist.strings */; };
+		DB002EED1884E9AD001DFA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB002EEC1884E9AD001DFA3A /* main.m */; };
+		DB002EF11884E9AD001DFA3A /* TJLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB002EF01884E9AD001DFA3A /* TJLAppDelegate.m */; };
+		DB002EF41884E9AD001DFA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB002EF21884E9AD001DFA3A /* Main.storyboard */; };
+		DB002EF71884E9AD001DFA3A /* TJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB002EF61884E9AD001DFA3A /* TJLViewController.m */; };
+		DB002EF91884E9AD001DFA3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB002EF81884E9AD001DFA3A /* Images.xcassets */; };
+		DB002F001884E9AD001DFA3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EFF1884E9AD001DFA3A /* XCTest.framework */; };
+		DB002F011884E9AD001DFA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EE01884E9AD001DFA3A /* Foundation.framework */; };
+		DB002F021884E9AD001DFA3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB002EE41884E9AD001DFA3A /* UIKit.framework */; };
+		DB002F0A1884E9AD001DFA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB002F081884E9AD001DFA3A /* InfoPlist.strings */; };
+		DB002F0C1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB002F0B1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB002F031884E9AD001DFA3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB002ED51884E9AD001DFA3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB002EDC1884E9AD001DFA3A;
+			remoteInfo = TJLAutoLayoutMacros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB002EDD1884E9AD001DFA3A /* TJLAutoLayoutMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJLAutoLayoutMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB002EE01884E9AD001DFA3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB002EE21884E9AD001DFA3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB002EE41884E9AD001DFA3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB002EE81884E9AD001DFA3A /* TJLAutoLayoutMacros-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJLAutoLayoutMacros-Info.plist"; sourceTree = "<group>"; };
+		DB002EEA1884E9AD001DFA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB002EEC1884E9AD001DFA3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB002EEE1884E9AD001DFA3A /* TJLAutoLayoutMacros-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TJLAutoLayoutMacros-Prefix.pch"; sourceTree = "<group>"; };
+		DB002EEF1884E9AD001DFA3A /* TJLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJLAppDelegate.h; sourceTree = "<group>"; };
+		DB002EF01884E9AD001DFA3A /* TJLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJLAppDelegate.m; sourceTree = "<group>"; };
+		DB002EF31884E9AD001DFA3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB002EF51884E9AD001DFA3A /* TJLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJLViewController.h; sourceTree = "<group>"; };
+		DB002EF61884E9AD001DFA3A /* TJLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJLViewController.m; sourceTree = "<group>"; };
+		DB002EF81884E9AD001DFA3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB002EFE1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJLAutoLayoutMacrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB002EFF1884E9AD001DFA3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB002F071884E9AD001DFA3A /* TJLAutoLayoutMacrosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJLAutoLayoutMacrosTests-Info.plist"; sourceTree = "<group>"; };
+		DB002F091884E9AD001DFA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB002F0B1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJLAutoLayoutMacrosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB002EDA1884E9AD001DFA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002EE31884E9AD001DFA3A /* CoreGraphics.framework in Frameworks */,
+				DB002EE51884E9AD001DFA3A /* UIKit.framework in Frameworks */,
+				DB002EE11884E9AD001DFA3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB002EFB1884E9AD001DFA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002F001884E9AD001DFA3A /* XCTest.framework in Frameworks */,
+				DB002F021884E9AD001DFA3A /* UIKit.framework in Frameworks */,
+				DB002F011884E9AD001DFA3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB002ED41884E9AD001DFA3A = {
+			isa = PBXGroup;
+			children = (
+				DB002EE61884E9AD001DFA3A /* TJLAutoLayoutMacros */,
+				DB002F051884E9AD001DFA3A /* TJLAutoLayoutMacrosTests */,
+				DB002EDF1884E9AD001DFA3A /* Frameworks */,
+				DB002EDE1884E9AD001DFA3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB002EDE1884E9AD001DFA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB002EDD1884E9AD001DFA3A /* TJLAutoLayoutMacros.app */,
+				DB002EFE1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB002EDF1884E9AD001DFA3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB002EE01884E9AD001DFA3A /* Foundation.framework */,
+				DB002EE21884E9AD001DFA3A /* CoreGraphics.framework */,
+				DB002EE41884E9AD001DFA3A /* UIKit.framework */,
+				DB002EFF1884E9AD001DFA3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB002EE61884E9AD001DFA3A /* TJLAutoLayoutMacros */ = {
+			isa = PBXGroup;
+			children = (
+				DB002EEF1884E9AD001DFA3A /* TJLAppDelegate.h */,
+				DB002EF01884E9AD001DFA3A /* TJLAppDelegate.m */,
+				DB002EF21884E9AD001DFA3A /* Main.storyboard */,
+				DB002EF51884E9AD001DFA3A /* TJLViewController.h */,
+				DB002EF61884E9AD001DFA3A /* TJLViewController.m */,
+				DB002EF81884E9AD001DFA3A /* Images.xcassets */,
+				DB002EE71884E9AD001DFA3A /* Supporting Files */,
+			);
+			path = TJLAutoLayoutMacros;
+			sourceTree = "<group>";
+		};
+		DB002EE71884E9AD001DFA3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB002EE81884E9AD001DFA3A /* TJLAutoLayoutMacros-Info.plist */,
+				DB002EE91884E9AD001DFA3A /* InfoPlist.strings */,
+				DB002EEC1884E9AD001DFA3A /* main.m */,
+				DB002EEE1884E9AD001DFA3A /* TJLAutoLayoutMacros-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB002F051884E9AD001DFA3A /* TJLAutoLayoutMacrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB002F0B1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m */,
+				DB002F061884E9AD001DFA3A /* Supporting Files */,
+			);
+			path = TJLAutoLayoutMacrosTests;
+			sourceTree = "<group>";
+		};
+		DB002F061884E9AD001DFA3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB002F071884E9AD001DFA3A /* TJLAutoLayoutMacrosTests-Info.plist */,
+				DB002F081884E9AD001DFA3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB002EDC1884E9AD001DFA3A /* TJLAutoLayoutMacros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB002F0F1884E9AD001DFA3A /* Build configuration list for PBXNativeTarget "TJLAutoLayoutMacros" */;
+			buildPhases = (
+				DB002ED91884E9AD001DFA3A /* Sources */,
+				DB002EDA1884E9AD001DFA3A /* Frameworks */,
+				DB002EDB1884E9AD001DFA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJLAutoLayoutMacros;
+			productName = TJLAutoLayoutMacros;
+			productReference = DB002EDD1884E9AD001DFA3A /* TJLAutoLayoutMacros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB002EFD1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB002F121884E9AD001DFA3A /* Build configuration list for PBXNativeTarget "TJLAutoLayoutMacrosTests" */;
+			buildPhases = (
+				DB002EFA1884E9AD001DFA3A /* Sources */,
+				DB002EFB1884E9AD001DFA3A /* Frameworks */,
+				DB002EFC1884E9AD001DFA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB002F041884E9AD001DFA3A /* PBXTargetDependency */,
+			);
+			name = TJLAutoLayoutMacrosTests;
+			productName = TJLAutoLayoutMacrosTests;
+			productReference = DB002EFE1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB002ED51884E9AD001DFA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TJL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Terry Lewis";
+				TargetAttributes = {
+					DB002EFD1884E9AD001DFA3A = {
+						TestTargetID = DB002EDC1884E9AD001DFA3A;
+					};
+				};
+			};
+			buildConfigurationList = DB002ED81884E9AD001DFA3A /* Build configuration list for PBXProject "TJLAutoLayoutMacros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB002ED41884E9AD001DFA3A;
+			productRefGroup = DB002EDE1884E9AD001DFA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB002EDC1884E9AD001DFA3A /* TJLAutoLayoutMacros */,
+				DB002EFD1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB002EDB1884E9AD001DFA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002EF91884E9AD001DFA3A /* Images.xcassets in Resources */,
+				DB002EEB1884E9AD001DFA3A /* InfoPlist.strings in Resources */,
+				DB002EF41884E9AD001DFA3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB002EFC1884E9AD001DFA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002F0A1884E9AD001DFA3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB002ED91884E9AD001DFA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002EF71884E9AD001DFA3A /* TJLViewController.m in Sources */,
+				DB002EED1884E9AD001DFA3A /* main.m in Sources */,
+				DB002EF11884E9AD001DFA3A /* TJLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB002EFA1884E9AD001DFA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB002F0C1884E9AD001DFA3A /* TJLAutoLayoutMacrosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB002F041884E9AD001DFA3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB002EDC1884E9AD001DFA3A /* TJLAutoLayoutMacros */;
+			targetProxy = DB002F031884E9AD001DFA3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB002EE91884E9AD001DFA3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB002EEA1884E9AD001DFA3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB002EF21884E9AD001DFA3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB002EF31884E9AD001DFA3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB002F081884E9AD001DFA3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB002F091884E9AD001DFA3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB002F0D1884E9AD001DFA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB002F0E1884E9AD001DFA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB002F101884E9AD001DFA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Prefix.pch";
+				INFOPLIST_FILE = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB002F111884E9AD001DFA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Prefix.pch";
+				INFOPLIST_FILE = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB002F131884E9AD001DFA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TJLAutoLayoutMacros.app/TJLAutoLayoutMacros";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TJLAutoLayoutMacrosTests/TJLAutoLayoutMacrosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB002F141884E9AD001DFA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TJLAutoLayoutMacros.app/TJLAutoLayoutMacros";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJLAutoLayoutMacros/TJLAutoLayoutMacros-Prefix.pch";
+				INFOPLIST_FILE = "TJLAutoLayoutMacrosTests/TJLAutoLayoutMacrosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB002ED81884E9AD001DFA3A /* Build configuration list for PBXProject "TJLAutoLayoutMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB002F0D1884E9AD001DFA3A /* Debug */,
+				DB002F0E1884E9AD001DFA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB002F0F1884E9AD001DFA3A /* Build configuration list for PBXNativeTarget "TJLAutoLayoutMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB002F101884E9AD001DFA3A /* Debug */,
+				DB002F111884E9AD001DFA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB002F121884E9AD001DFA3A /* Build configuration list for PBXNativeTarget "TJLAutoLayoutMacrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB002F131884E9AD001DFA3A /* Debug */,
+				DB002F141884E9AD001DFA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB002ED51884E9AD001DFA3A /* Project object */;
+}
