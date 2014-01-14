@@ -46,20 +46,19 @@ UIView *redView = [[UIView alloc]init];
  ```
 to this:
 ```
-UIView *redView = [[UIView alloc]init];
+    UIView *redView = [[UIView alloc]init];
     redView.translatesAutoresizingMaskIntoConstraints = NO;
     redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:redView];
     
     [self.view addConstraints:@[
-                                NSConstraintMakeEqualTo(redView, kCenterX, self.view),
-                                NSConstraintMakeEqualTo(redView, kCenterY, self.view),
-                                NSConstraintMakeWidth(redView, kEqual, 300),
-                                NSConstraintMakeHeight(redView, kEqual, 300)
+                                NSConstraintMakeCenter(redView, self.view),
+                                NSConstraintMakeWidthAndHeightEqual(redView, 300)
                                 ]];
+
  ```
 
-Simply a way to make auto layout a bit less verbose.
+Simply a way to make auto layout a bit less verbose. Some of the macros are made to only be used when adding constraints to an array as in the example, as there are two constraints needed to center an item in a view. So NSConstraintMakeCenter is only made to be passed into an array.
 
 <h2>Installation</h2>
 <hr>
