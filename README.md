@@ -62,7 +62,7 @@ Simply a way to make auto layout a bit less verbose. Some of the macros are made
 
 <h2>Installation</h2>
 <hr>
-the prefered method is [Cocoapods](http://www.cocoapods.org), just put `pod 'TJLAutoLayoutMacros', '1.0.0'` into your podfile. If you don't want to use cocoapods, just grab the files in the Source folder, drop them into your project and then `#import "TJLAutoLayoutMacros.h"` and start saving lines of code!
+the prefered method is [Cocoapods](http://www.cocoapods.org), just put `pod 'TJLAutoLayoutMacros', '1.0.1'` into your podfile. If you don't want to use cocoapods, just grab the files in the Source folder, drop them into your project and then `#import "TJLAutoLayoutMacros.h"` and start saving lines of code!
 
 <h1>License</h1>
 If you use TJLAutoLayoutMacros and you like it, feel free to let me know, <terry@ploverproductions.com>. If you have any issue or want to make improvements, submit a pull request.<br><br>
