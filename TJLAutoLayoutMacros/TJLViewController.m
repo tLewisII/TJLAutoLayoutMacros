@@ -33,8 +33,8 @@
     
     [self.view addConstraints:@[
                                 NSConstraintMakeCenter(greenView, redView),
-                                NSConstraintMakeEqualToWithOffset(greenView, kWidth, redView, -10),
-                                NSConstraintMakeEqualToWithOffset(greenView, kHeight, redView, -10)
+                                NSConstraintMakeEqualToWithOffset(greenView, TJLWidth, redView, -10),
+                                NSConstraintMakeEqualToWithOffset(greenView, TJLHeight, redView, -10)
                                 ]];
 
 }
